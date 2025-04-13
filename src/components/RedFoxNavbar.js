@@ -2,13 +2,14 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
-import redfox from './redfox.svg';
-import redfoxText from './redfoxtext.svg';
 import Button from "react-bootstrap/Button";
+import redfox from '../images/redfox.svg';
+import redfoxText from '../images/redfoxtext.svg';
+import '../styles/Navbar.css';
 
 function RedFoxNavbar() {
     return (
-        <Navbar className="navbar-light" sticky="top" style={{ backgroundColor: "#eeeeee" }}>
+        <Navbar className="navbar-light mb-4 everything" sticky="top" style={{ backgroundColor: "#eeeeee" }}>
             <Container>
                 <Navbar.Brand href="#home" className="brand-container">
                     <img
@@ -27,11 +28,12 @@ function RedFoxNavbar() {
                     />
                 </Navbar.Brand>
                 <Nav className="ms-auto gap-4">
+                    <Nav.Link href="#home">Home</Nav.Link>
                     <Nav.Link href="#about">About Us</Nav.Link>
                     <Nav.Link href="#services">Services</Nav.Link>
                     <Nav.Link href="#projects">Projects</Nav.Link>
                     <Nav.Item href="#book">
-                        <Button variant="dark">Book Now!</Button>
+                        <Button variant="danger">Book Now!</Button>
                     </Nav.Item>
                 </Nav>
             </Container>

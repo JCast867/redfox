@@ -1,6 +1,5 @@
 .App {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 1000;
+
 }
 
 .brand-container {
@@ -11,8 +10,7 @@
 }
 
 .brand-text-svg {
-  margin-left: 10px;  /* Adjust spacing as needed */
-  /* Optionally, you can set a width or height if you want to scale the SVG */
-  height: 67px;       /* Example: match the logo's height */
+  margin-left: 10px;
+  height: 67px;
   width: auto;
 }
