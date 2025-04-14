@@ -54,9 +54,11 @@ function ContactUs() {
                         by filling out the form, emailing us, or calling us!
                     </p>
                     <h6 className="text-center mb-2">
-                        <MdOutlineEmail size={30} className="mb-1"/> redfoxconstruction@rfox.com
+                        <MdOutlineEmail size={30} className="mb-1"/>
+                        <a href="mailto:Nick@redfoxcoatings.com" style={{textDecoration: "none", color: "black"}}> Nick@redfoxcoatings.com</a>
                         <br/>
-                        <LuPhone size={30}/> 1-800-555-5555
+                        <LuPhone size={30}/>
+                        <a href="tel:(847) 508-4044" style={{textDecoration: "none", color: "black"}}> (847) 508-4044</a>
                     </h6>
                 </Col>
                 <Col md={7}>

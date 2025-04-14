@@ -9,7 +9,7 @@ import '../styles/Navbar.css';
 
 function RedFoxNavbar() {
     return (
-        <Navbar className="navbar-light mb-4 everything" sticky="top" style={{ backgroundColor: "#eeeeee" }}>
+        <Navbar className="navbar-light mb-4 everything" style={{ backgroundColor: "#eeeeee" }}>
             <Container>
                 <Navbar.Brand href="#home" className="brand-container">
                     <img
