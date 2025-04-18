@@ -3,6 +3,7 @@ import Nav from './components/RedFoxNavbar';
 import AboutUs from './components/AboutUs';
 import Main from "./components/Main";
 import ContactUs from "./components/ContactUs";
+import Reviews from "./components/Reviews";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Main />
       <AboutUs />
       <ContactUs />
+        <Reviews />
     </div>
   );
 }

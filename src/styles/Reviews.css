@@ -1,0 +1,58 @@
+.reviews-container {
+  position: relative;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.custom-carousel {
+  overflow: visible;
+}
+
+.custom-carousel .carousel-control-prev,
+.custom-carousel .carousel-control-next {
+  position: absolute;
+  width: 50px; /* Slightly larger */
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 1 !important;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+.custom-carousel .carousel-control-prev:hover,
+.custom-carousel .carousel-control-next:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.custom-carousel .carousel-control-prev {
+  left: -60px;
+}
+
+.custom-carousel .carousel-control-next {
+  right: -60px;
+}
+
+.custom-carousel .carousel-control-prev-icon,
+.custom-carousel .carousel-control-next-icon {
+  width: 25px;
+  height: 25px;
+  background-size: 100% 100%;
+}
+
+.custom-carousel .row {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.custom-carousel .col-md-4 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+

@@ -47,7 +47,7 @@ function AboutUs() {
                         <Card.Body>
                             <Card.Title className="text-center">About Us</Card.Title>
                             <Card.Text>
-                                We believe that exceptional
+                                At RedFox Construction, we believe that exceptional
                                 customer service and uncompromising quality are
                                 paramount. We view pricing as a way to establish both
                                 value and mutual respect with our clients—principles
