@@ -84,7 +84,7 @@ function Reviews() {
   return (
     <div className="reviews-container">
       <h2 className="text-center mb-4">Customer Reviews</h2>
-      <Carousel interval={null} indicators={false} className="custom-carousel">
+      <Carousel interval={null} indicators={false} className="custom-carousel mb-4">
         {reviewGroups.map((group, idx) => (
           <Carousel.Item key={idx}>
             <Row className="mx-2">
