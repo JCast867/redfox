@@ -9,7 +9,7 @@ import '../styles/Navbar.css';
 
 function RedFoxNavbar() {
     return (
-        <Navbar className="navbar-light mb-4 everything" style={{ backgroundColor: "#eeeeee" }}>
+        <Navbar expand="lg" className="navbar-light mb-4 everything" style={{ backgroundColor: "#eeeeee" }}>
             <Container>
                 <Navbar.Brand href="#home" className="brand-container">
                     <img
@@ -27,15 +27,20 @@ function RedFoxNavbar() {
                         className="brand-text-svg"
                     />
                 </Navbar.Brand>
-                <Nav className="ms-auto gap-4">
-                    <Nav.Link href="#home">Home</Nav.Link>
-                    <Nav.Link href="#about">About Us</Nav.Link>
-                    <Nav.Link href="#services">Services</Nav.Link>
-                    <Nav.Link href="#projects">Projects</Nav.Link>
-                    <Nav.Item href="#book">
-                        <Button variant="danger">Book Now!</Button>
-                    </Nav.Item>
-                </Nav>
+
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+
+                <Navbar.Collapse id="basic-navbar-nav">
+                  <Nav className="ms-auto gap-4">
+                      <Nav.Link href="#home">Home</Nav.Link>
+                      <Nav.Link href="#about">About Us</Nav.Link>
+                      <Nav.Link href="#services">Services</Nav.Link>
+                      <Nav.Link href="#projects">Projects</Nav.Link>
+                      <Nav.Item href="#book">
+                          <Button variant="danger">Book Now!</Button>
+                      </Nav.Item>
+                    </Nav>
+                </Navbar.Collapse>
             </Container>
         </Navbar>
     );

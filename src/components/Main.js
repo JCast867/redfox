@@ -59,11 +59,10 @@ function Main() {
                 {images.map((image, index) => (
                     <Carousel.Item key={index}>
                         <img
-                            className="mx-auto d-block w-75"
-                            height="600px"
-                            width="100px"
+                            className="d-block w-100 carousel-image"
                             src={image}
                             alt={`Slide ${index + 1}`}
+                            style={{objectFit: "contain"}}
                         />
                     </Carousel.Item>
                 ))}
