@@ -45,7 +45,7 @@ function ContactUs() {
     };
 
     return (
-        <Container className="mb-4">
+        <Container className="mb-4" id="book">
             <Row>
                 <Col md={5}>
                     <h2 className="text-center mb-3">Contact Us</h2>

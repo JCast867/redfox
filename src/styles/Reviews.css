@@ -1,20 +1,22 @@
 .reviews-container {
   position: relative;
-  padding: 20px;
+  padding: 29px;
   max-width: 1200px;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .custom-carousel {
-  overflow: visible;
+  position: relative;
+  padding: 0 30px;
 }
 
 .custom-carousel .carousel-control-prev,
 .custom-carousel .carousel-control-next {
   position: absolute;
-  width: 50px;
-  height: 50px;
-  background-color: rgba(0, 0, 0, 0.2);
+  width: 40px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.5);
   border-radius: 50%;
   top: 50%;
   transform: translateY(-50%);
@@ -24,35 +26,76 @@
   align-items: center;
   justify-content: center;
   border: none;
-}
-
-.custom-carousel .carousel-control-prev:hover,
-.custom-carousel .carousel-control-next:hover {
-  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 10;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .custom-carousel .carousel-control-prev {
-  left: -60px;
+  left: 0;
 }
 
 .custom-carousel .carousel-control-next {
-  right: -60px;
+  right: 0;
 }
 
 .custom-carousel .carousel-control-prev-icon,
 .custom-carousel .carousel-control-next-icon {
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
   background-size: 100% 100%;
+  filter: brightness(0) invert(1);
 }
 
-.custom-carousel .row {
-  margin-left: -10px;
-  margin-right: -10px;
+@media (min-width: 576px) {
+  .custom-carousel {
+    padding: 0 40px;
+  }
+
+  .custom-carousel .carousel-control-prev,
+  .custom-carousel .carousel-control-next {
+    width: 45px;
+    height: 45px;
+  }
+
+  .custom-carousel .carousel-control-prev-icon,
+  .custom-carousel .carousel-control-next-icon {
+    width: 22px;
+    height: 22px;
+  }
 }
 
-.custom-carousel .col-md-4 {
-  padding-left: 10px;
-  padding-right: 10px;
+@media (min-width: 768px) {
+  .custom-carousel {
+    padding: 0 50px;
+  }
+
+  .custom-carousel .carousel-control-prev,
+  .custom-carousel .carousel-control-next {
+    width: 50px;
+    height: 50px;
+  }
+
+  .custom-carousel .carousel-control-prev-icon,
+  .custom-carousel .carousel-control-next-icon {
+    width: 25px;
+    height: 25px;
+  }
+
+  .custom-carousel .carousel-control-prev {
+    left: -55px;
+  }
+
+  .custom-carousel .carousel-control-next {
+    right: -10px;
+  }
 }
 
+@media (min-width: 992px) {
+  .custom-carousel .carousel-control-prev {
+    left: -25px;
+  }
+
+  .custom-carousel .carousel-control-next {
+    right: -25px;
+  }
+}

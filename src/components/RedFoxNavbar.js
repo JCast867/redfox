@@ -32,12 +32,11 @@ function RedFoxNavbar() {
 
                 <Navbar.Collapse id="basic-navbar-nav">
                   <Nav className="ms-auto gap-4">
-                      <Nav.Link href="#home">Home</Nav.Link>
                       <Nav.Link href="#about">About Us</Nav.Link>
                       <Nav.Link href="#services">Services</Nav.Link>
                       <Nav.Link href="#projects">Projects</Nav.Link>
-                      <Nav.Item href="#book">
-                          <Button variant="danger">Book Now!</Button>
+                      <Nav.Item>
+                          <Button variant="danger" href="#book">Book Now!</Button>
                       </Nav.Item>
                     </Nav>
                 </Navbar.Collapse>

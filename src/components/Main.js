@@ -51,11 +51,11 @@ function Main() {
 
 
     return (
-        <Container className="mb-4">
+        <Container className="mb-4" id="home">
             <h2 className="text-center mb-3">Quality Roof Construction</h2>
             <h6 className="text-center mb-5">Tailored Services for Your Property</h6>
 
-            <Carousel className="image-carousel mb-5">
+            <Carousel className="image-carousel mb-5" id="projects">
                 {images.map((image, index) => (
                     <Carousel.Item key={index}>
                         <img
