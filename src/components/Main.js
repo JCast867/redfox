@@ -67,7 +67,6 @@ function Main() {
                     </Carousel.Item>
                 ))}
             </Carousel>
-
         </Container>
     )
 }

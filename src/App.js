@@ -5,17 +5,20 @@ import Main from "./components/Main";
 import ContactUs from "./components/ContactUs";
 import Reviews from "./components/Reviews";
 import Footer from "./components/Footer";
+import RedFoxHelmet from './components/RedfoxHelmet';
 
 function App() {
   return (
-    <div className="App">
+    <>
+      <RedFoxHelmet />
       <Nav />
       <Main />
       <AboutUs />
       <ContactUs />
-        <Reviews />
-        <Footer />
-    </div>
+      <Reviews />
+      <Footer />
+    </>
+      
   );
 }
 
