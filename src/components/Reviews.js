@@ -318,8 +318,7 @@ function Reviews() {
       name: "Rob U.",
       date: "May 23, 2022",
       stars: 5,
-      review:
-        "Did a great job\n" + "Got to my property in 3 hours\n" + "Thanks Nick",
+      review: "Did a great job\nGot to my property in 3 hours\nThanks Nick",
     },
     {
       name: "Jason D.",
