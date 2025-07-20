@@ -33,7 +33,7 @@ function RedFoxHelmet() {
       />
       <meta
         property="og:image"
-        content="https://therealredfox.com/redfox.png"
+        content="https://therealredfox.com/redfox.jpg"
       />
       <meta property="og:url" content="https://therealredfox.com/" />
       <meta name="twitter:card" content="summary_large_image" />
